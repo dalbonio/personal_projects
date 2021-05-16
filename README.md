@@ -1,3 +1,3 @@
-# personal_projects
+# Personal Projects
 
 This repo is to display some small and simple projects I decided to do in free time
