@@ -1,6 +1,9 @@
 // main.rs
 extern crate juniper;
 
+#[macro_use]
+extern crate diesel;
+
 use std::io;
 use std::sync::Arc;
 
@@ -11,6 +14,8 @@ use juniper::http::GraphQLRequest;
 
 mod graphql;
 use graphql::graphql_schema::{create_schema, Schema};
+
+mod schema;
 
 #[actix_web::main]
 async fn main() -> io::Result<()> {
