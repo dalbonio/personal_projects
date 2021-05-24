@@ -1,2 +1,0 @@
-(** @canonical Linear_regression.Lin_reg *)
-module Lin_reg = Linear_regression__Lin_reg
