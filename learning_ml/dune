@@ -1,0 +1,6 @@
+(executable
+ (name Hello)
+ (libraries
+ linear_regression
+  owl
+  owl-plplot))

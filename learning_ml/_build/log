@@ -1,0 +1,270 @@
+# /home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__dune-opam__c__2.8.5-3e8e4c72/bin/dune test
+# OCAMLPARAM: unset
+# Workspace root: /home/dalbonio/folder/personal_projects/scientific_ocaml
+$ /usr/bin/nproc > /tmp/dune13abcf.output 2> /dev/null
+# Auto-detected concurrency: 12
+# disable binary cache
+$ /home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-6131b28f/bin/ocamlfind printconf path > /tmp/dunee26891.output
+$ /home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlc.opt -config > /tmp/dune53d675.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-6131b28f/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/home/dalbonio/folder/personal_projects/scientific_ocaml"
+#        ; "INSIDE_DUNE" :
+#            "/home/dalbonio/folder/personal_projects/scientific_ocaml/_build/default"
+#        ; "MANPATH" :
+#            "/home/dalbonio/folder/personal_projects/scientific_ocaml/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/dalbonio/folder/personal_projects/scientific_ocaml/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/dalbonio/folder/personal_projects/scientific_ocaml/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__dune-opam__c__2.8.5-3e8e4c72/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.6.1-84453088/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ounit2-opam__c__2.2.4-9216ec65/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__owl-opam__c__1.0.1-bc57bc55/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__owl_plplot-opam__c__1.0.1-f7ceb82c/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__owl_top-opam__c__1.0.1-d3b02e9e/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__utop-opam__c__2.7.0-f82f703c/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/esy_fswatch-25a8caef/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-ed6217b4/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__base_threads-opam__c__base-f93e1d7d/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__base_unix-opam__c__base-dc4b97fb/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-957b1a48/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.1-35b12a11/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__dune_build_info-opam__c__2.8.5-df467bcd/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__pp-opam__c__1.1.2-a82e3e07/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ppx__yojson__conv__lib-opam__c__v0.14.0-64390e70/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__result-opam__c__1.5-8432b9dd/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-d310f80a/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__base_bytes-opam__c__base-9f109685/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.3.0-20b49a1d/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__base-opam__c__v0.14.1-f86bbe85/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__base_bigarray-opam__c__base-61486c0c/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__conf_openblas-opam__c__0.2.1-f64403d0/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ctypes-opam__c__0.18.0-38d8e5f8/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.8.5-370587ed/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__eigen-opam__c__0.3.0-b9e954f7/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__npy-opam__c__0.0.9-bca66d9f/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__owl_base-opam__c__1.0.1-3eb7703c/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__stdio-opam__c__v0.14.0-1a6b1217/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__plplot-opam__c__5.11.0-1-ed4bb6d6/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocaml_compiler_libs-opam__c__v0.12.3-eba9af9d/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__owl_zoo-opam__c__1.0.1-8635fcbc/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__camomile-opam__c__1.0.2-45b5a278/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-f805b19c/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__lambda_term-opam__c__3.1.0-9e227c24/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__lwt-opam__c__5.4.0-f7d18c3d/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__lwt__react-opam__c__1.1.4-6083fbd7/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-6131b28f/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__react-opam__c__1.2.1-ad84df50/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/automake-7e906675/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-91e8d334/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-4e310f0e/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.14.0-59913f10/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-0436739f/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__integers-opam__c__0.4.0-2711745e/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__camlzip-opam__c__1.10-8d80b128/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__conf_plplot-opam__c__1-2b47fdaa/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__lwt__log-opam__c__1.1.1-51efe4b3/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__mew__vi-opam__c__0.5.0-4a37222c/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__zed-opam__c__3.1.0-fab897d3/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-9f8e2ab6/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-ef2e0d83/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__seq-opam__c__base-64a8e322/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-12f25b3d/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__topkg-opam__c__1.0.3-d9547b45/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/autoconf-dafb3f25/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__conf_zlib-opam__c__1-361fbed1/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__2-75f4dfdd/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__mew-opam__c__0.1.0-62b9ed32/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__charinfo__width-opam__c__1.1.0-67b4e460/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/esy_help2man-f12b31ad/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/esy_zlib-92dd1ebc/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/yarn_pkg_config-f6e75d1b/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__trie-opam__c__1.0.0-7fc14247/lib"
+#      ; External
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-6131b28f/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#      ; standard_library =
+#          "/home/dalbonio/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }

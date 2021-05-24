@@ -1,0 +1,14 @@
+(lang dune 2.8)
+
+(name hello)
+
+(generate_opam_files true)
+
+(package
+ (name hello)
+ (depends
+  (ocaml
+   (>= "4.08.0"))
+  owl
+  owl-plplot
+  ounit2))
