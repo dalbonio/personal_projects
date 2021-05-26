@@ -3,9 +3,15 @@ opam-version: "2.0"
 depends: [
   "dune" {>= "2.8"}
   "ocaml" {>= "4.08.0"}
-  "owl"
-  "owl-plplot"
-  "ounit2"
+  "opium"
+  "ppx_deriving_yojson"
+  "yojson"
+  "uuidm"
+  "caqti"
+  "caqti-lwt"
+  "caqti-driver-postgresql"
+  "ppx_rapper"
+  "ppx_rapper_lwt"
   "odoc" {with-doc}
 ]
 build: [
